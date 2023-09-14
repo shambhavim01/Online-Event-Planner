@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Login Page</title>
+    <link rel="stylesheet" href="Login_style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="wrapper">
+        <span class="bg-animate"></span>
+        <div class=" form-box login">
+            <h2>Vendor Login</h2>
+            <form onsubmit="return validateForm(this)" method="post">
+                <div class="input-box">
+                    <input type="text" name="username" id="username" placeholder="Enter Username">
+                    <label for="username">Username</label>
+                    <i class="bi bi-person-fill" id="uicon"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="pwd" id="pwd" placeholder="Enter Password">
+                    <label for="pwd">Password</label>
+                    <i class="bi bi-lock-fill" id="picon"></i>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+
+        <div class="info-text login">
+            <h2>Welcome Vendor!</h2>
+            <p>To the CAD Website</p>
+        </div>
+    </div>
+    <script src="vendor-validation.js"></script>
+</body>
+
+</html>

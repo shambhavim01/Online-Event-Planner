@@ -1,0 +1,76 @@
+/* Style the body and center the form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9ddbdf;
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+
+}
+.quotationFormContainer{
+   width: 80%;
+   margin: 40px auto;
+}
+h1 {
+    color: #333;
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* Style the form container */
+#quotation-Form {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+/* Style form submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the form elements on focus */
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border: 1px solid #007BFF;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}

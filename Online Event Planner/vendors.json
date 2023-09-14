@@ -1,0 +1,134 @@
+{
+    "vendors": [
+        {
+            "name": "Varsha",
+            "pwd":111,
+            "id": 101,
+            "address": "123 Main St, City1",
+            "email": "varsha@example.com",
+            "contactNumber": "111-222-3333",
+            "eventPackages": {
+                "basic": 500,
+                "premium": 1000,
+                "classic": 800
+            }
+        },
+        {
+            "name": "Bhagyashri",
+            "pwd":222,
+            "id": 102,
+            "address": "456 Elm St, City2",
+            "email": "bhagya@example.com",
+            "contactNumber": "444-555-6666",
+            "eventPackages": {
+                "basic": 450,
+                "premium": 900,
+                "classic": 750
+            }
+        },
+        {
+            "name": "Aishwarya",
+            "pwd":333,
+            "id": 103,
+            "address": "789 Oak St, City3",
+            "email": "aish@example.com",
+            "contactNumber": "777-888-9999",
+            "eventPackages": {
+                "basic": 550,
+                "premium": 1100,
+                "classic": 900
+            }
+        },
+        {
+            "name": "Kiyara",
+            "pwd":444,
+            "id": 104,
+            "address": "321 Pine St, City4",
+            "email": "Kiyara@example.com",
+            "contactNumber": "123-456-7890",
+            "eventPackages": {
+                "basic": 600,
+                "premium": 1200,
+                "classic": 1000
+            }
+        },
+        {
+            "name": "Nandini",
+            "pwd":555,
+            "id": 105,
+            "address": "654 Cedar St, City5",
+            "email": "nandini@example.com",
+            "contactNumber": "555-444-3333",
+            "eventPackages": {
+                "basic": 480,
+                "premium": 950,
+                "classic": 720
+            }
+        },
+        {
+            "name": "Samiksha",
+            "pwd":666,
+            "id": 106,
+            "address": "987 Maple St, City6",
+            "email": "sami@example.com",
+            "contactNumber": "666-777-8888",
+            "eventPackages": {
+                "basic": 520,
+                "premium": 1050,
+                "classic": 780
+            }
+        },
+        {
+            "name": "Siddhi",
+            "pwd":777,
+            "id": 107,
+            "address": "654 Birch St, City7",
+            "email": "sid@example.com",
+            "contactNumber": "333-222-1111",
+            "eventPackages": {
+                "basic": 430,
+                "premium": 870,
+                "classic": 660
+            }
+        },
+        {
+            "name": "Hruta",
+            "pwd":888,
+            "id": 108,
+            "address": "789 Redwood St, City8",
+            "email": "hurtua@example.com",
+            "contactNumber": "222-333-4444",
+            "eventPackages": {
+                "basic": 580,
+                "premium": 1150,
+                "classic": 840
+            }
+        },
+        {
+            "name": "Isha",
+            "pwd":999,
+            "id": 109,
+            "address": "123 Cedar St, City9",
+            "email": "isha@example.com",
+            "contactNumber": "888-999-0000",
+            "eventPackages": {
+                "basic": 490,
+                "premium": 980,
+                "classic": 700
+            }
+        },
+        {
+            "name": "Mansi",
+            "pwd":111,
+            "id": 110,
+            "address": "456 Oak St, City10",
+            "email": "mansi@example.com",
+            "contactNumber": "111-222-3333",
+            "eventPackages": {
+                "basic": 510,
+                "premium": 1020,
+                "classic": 760
+            }
+        }
+    ]
+}

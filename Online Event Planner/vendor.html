@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor.css">
+    
+   </head>
+<body>
+    
+
+
+
+   
+
+  <!-- -----------------Package  Section-----------------  -->
+  <div class="package-section">
+    <h2>Package</h2>
+    <div class="package"> 
+        <div  id="package-adder">
+          <a href="addPackageForm.html"><span><img src="images/add.png" alt="60px" width="60px"></span></a>
+        </div>
+    </div>
+  </div>
+  
+
+  <!---------------------User Request Table section--------- -->
+    <main class="table">
+
+       
+        <section class="table__header">
+        <h1>User's Request</h1>
+        </section>
+
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Request Id <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> From Date <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> To Date <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> List Of Service <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> No. of Person<span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Other Service <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Quotation <span class="icon-arrow">&UpArrow;</span></th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Table rows will be inserted here dynamically -->
+                </tbody>
+            </table>
+        </section>
+      
+    </main>
+
+</body>
+<script src="vendorAddPackage.js" ></script>
+<script src="userRequests.js" ></script>
+<script src="vendorCreateQuotation.js" ></script>
+</html>

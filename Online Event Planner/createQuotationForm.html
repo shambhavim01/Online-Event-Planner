@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Form</title>
+    <link rel="stylesheet" href="createQuotationForm.css">
+</head>
+<body>
+  <div class="quotationFormContainer">
+    <h1>Request Form</h1>
+    <form id="quotation-Form">
+        <label for="uniqueId">Unique ID:</label>
+        <input type="text" id="uniqueId" name="uniqueId" required placeholder="Unique Id"><br>
+
+        <label for="package">Package:</label>
+        <input type="text" id="package" name="package" required placeholder="Package"><br>
+
+        <label for="estimatedAmount">Estimated Amount:</label>
+        <input type="number" id="estimatedAmount" name="estimatedAmount" required placeholder="Amount"><br>
+
+        <label for="vendorId">Vendor ID:</label>
+        <input type="text" id="vendorId" name="vendorId" required placeholder="Vendor Id"><br>
+
+        <label for="userId">User ID:</label>
+        <input type="text" id="userId" name="userId" required placeholder="User Id"><br>
+
+        <label for="planRequestId">Plan Request ID:</label>
+        <input type="text" id="planRequestId" name="planRequestId" placeholder="Plan Request Id" required><br>
+
+        <label for="status">Status:</label>
+        <select id="status" name="status" required placeholder="---">
+            <option value="" disabled selected>select the status</option>
+            <option value="accept">Accept</option>
+            <option value="reject">Reject</option>
+            <option value="pending">Pending</option>
+        </select><br>
+
+        <input type="submit" value="Submit">
+    </form>
+ </div>
+</body>
+<script src="createQuotationForm.js"></script>
+</html>

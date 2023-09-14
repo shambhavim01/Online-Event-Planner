@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Package Form</title>
+    <link rel="stylesheet" href="addPackageForm.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add Package</h2>
+        <form id="addPackageForm">
+            <label for="packageId">Id:</label>
+            <input type="text" id="packageId" name="packageId" placeholder="Id" required>
+
+            <label for="functionType">Type of Function:</label>
+            <input type="text" id="functionType" name="functionType" placeholder="Type of Function" required>
+
+            <label for="packageType">Package Type:</label>
+            <select id="packageType" name="packageType" required>
+              <option value="" disabled selected >Select Package Type</option>
+                <option value="basic">Basic</option>
+                <option value="premium">Premium</option>
+                <option value="classic">Classic</option>
+            </select>
+
+              <label>List Of Services:</label>
+                <multi-input>
+                  <input list="speakers">
+                  <datalist id="speakers">
+                    <option value="Decoration"></option>
+                    <option value="Photography"></option>
+                    <option value="catering"></option>
+                    <option value="Audio-Visual and Production Services"></option>
+                    <option value="DJs and Music Services"></option>
+                    <option value="Lighting Design"></option>
+                  </datalist>
+                </multi-input>
+              
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" name="amount" placeholder="Amount" required>
+            
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="4" cols="80">
+            </textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+ <script src="addPackageForm.js" type="module"></script>
+ <script src="listOfService.js"></script>
+</html>
